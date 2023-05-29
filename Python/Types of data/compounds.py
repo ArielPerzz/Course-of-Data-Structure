@@ -1,42 +1,43 @@
-list = []
-print (type(list))
+lista1 = []
+print (type(lista1))
 
-list=[1,2,3,4,5]
-print(list)
+lista1 =[1,2,3,4,5]
+print(lista1)
 
-list = ["Ariel",True,2,3.14,4j,["a", "b"],4]
-print(list)
+lisa1 = ["Ariel",True,2,3.14,4j,["a", "b"],4]
+print(lista1)
 
-list.append("Ariel")
-print(list)
+lista1.append("Ariel") #agrega un elemento al final de la lista
+print(lista1)
 
-list2 = list.copy()
+list2 = lista1.copy() #copia la lista en otra mas para modificarla y no dañar la original.
 print(list2)
 
-list2.clear()
+list2.clear() #borra todos los elementos de la lista
 print(list2)
 
 list2 = ["a", "b", "c", "d", "e"]
-print(list2.count("e"))
+print(list2.count("e")) #cuenta los elementos de la lista ubicados en el parentesis
+#devuelve el valor en numeros
 
 list2 = ["a", "b", "c", "d", "e", "e"]
-print(list2.count("e"))
+print(list2.count("e")) #aqui se ve un ejemplo de la linea 20.
 
-print(len(list2))
+print(len(list2)) #imprime el tamaño de la lista. o la cantidad de elementos que en ella existen
 
-print(list2[4])
+print(list2[4]) #imprime el elemento de la lista que esta entre parentesis
 print(list2[5])
 
-list2.remove("a")
-list2.remove("e")
+list2.remove("a")  
+list2.remove("e") #elimina un solo elemento de la lista 
 list2.remove("e")
 
 print(list2)
 
-list2.reverse()
+list2.reverse() #da la vuelta a la lista, la pone en reversa
 print(list2)
 
-list2.sort()
+list2.sort() #arregla la lista, la ordena en orden ascendente
 print(list2)
 
 list2 = ["a", "b", "B", "c"]
@@ -58,9 +59,9 @@ print(tupla.count("quito"))
 print(tupla.count("cuenca"))
 #print(tupla.index("quito"))
 
-#lista = list(tupla)
-#print(lista)
-#print(tupla)
+lista = list(tupla)
+print(lista)
+print(tupla)
 
 rango = range(5, 10, 2)
 print(type(rango))
